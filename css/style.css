@@ -4,20 +4,138 @@
     box-sizing: border-box;
 }
 
+/* Main container */
 .mega_container {
     width: 900px;
     margin: 0 auto;
 }
 
+/********
+ Header 
+ ********/
 #site_header {
-    height: 80px;
+    height: 40px;
     background-color: orange;
 }
 
+/********
+ Nav
+ ********/
+
 #site_nav {
-    height: 60px;
+    height: 30px;
     background-color: yellow; 
 }
+
+/********
+ Main
+ ********/
+
+#site_main {
+    margin-top: 1rem;
+}
+
+#site_main > div {
+    margin-top: 1rem;
+}
+
+/* Top main */
+.top_main {
+    height: 300px;
+    background-color: red; 
+    border-radius: 10px;
+}
+
+/* Middle main */
+
+.middle_main {
+    height: 50px;
+    background-color: cornflowerblue;
+}
+
+/* Bottom main */
+
+.bottom_main {
+    height: 600px;
+    background-color: darkcyan;
+}
+
+/* Row images */
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left_box {
+    width: 20%;
+    height: 150px;
+    background-color: lightgrey;
+    float: left;
+    margin-right: 1%;
+    border-radius: 10px;
+
+}
+
+.center_box {
+    width: 58%;
+    height: 150px;
+    background-color: lightgrey;
+    float: left;
+    margin-right: 1%;
+    border-radius: 10px;
+
+}
+
+.right_box {
+    width: 20%;
+    height: 150px;
+    background-color: lightgrey;
+    float: left;
+    border-radius: 10px;
+
+}
+
+/* Row content */
+
+
+.left_content {
+    width: 20%;
+    height: 440px;
+    background-color: coral;
+    float: left;
+    margin-top: 5px;
+    margin-right: 1%;
+    border-radius: 10px;
+}
+
+.center_content {
+    width: 58%;
+    height: 440px;
+    background-color: coral;
+    float: left;
+    margin-top: 5px;
+    margin-right: 1%;
+    border-radius: 10px;
+}
+
+.right_content {
+    width: 20%;
+    height: 440px;
+    background-color: coral;
+    float: left;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+/* /Bottom main */
+
+
+/* /Main container */
+
+
+
 
 
 
