@@ -131,6 +131,15 @@
 
 /* /Bottom main */
 
+/********
+ Footer
+ ********/
+
+ #site_footer {
+    height: 30px;
+    background-color: blueviolet; 
+    margin: 0.5rem 0;    
+}
 
 /* /Main container */
 
