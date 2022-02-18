@@ -7,16 +7,27 @@
 /* Main container */
 .mega_container {
     width: 900px;
-    margin: 0 auto;
+    margin: 1rem auto;
 }
 
 /********
  Header 
  ********/
 #site_header {
-    height: 40px;
+    height: 50px;
     background-color: orange;
+    position: relative;
 }
+
+#logo_text {
+    height: 30px;
+    width: 200px;
+    background-color: chartreuse;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
 
 /********
  Nav
@@ -25,6 +36,16 @@
 #site_nav {
     height: 30px;
     background-color: yellow; 
+    line-height: 30px;
+}
+
+.sections {
+    display: inline-block;
+    width: 70px;
+    height: 20px;
+    background-color: brown;
+    margin-right: 5px;
+    vertical-align: bottom;
 }
 
 /********
